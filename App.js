@@ -97,7 +97,7 @@ class App extends Component {
     return (
       <View style={styles.container}>
         <Text style={styles.welcome}>
-          Welcome to CodePush!
+          Welcome to CodePush 232323!
         </Text>
         <TouchableOpacity onPress={this.sync.bind(this)}>
           <Text style={styles.syncButton}>Press for background sync</Text>
@@ -155,7 +155,7 @@ const styles = StyleSheet.create({
  * different check frequency, such as ON_APP_START, for a 'hands-off' approach where CodePush.sync() does not
  * need to be explicitly called. All options of CodePush.sync() are also available in this decorator.
  */
-let codePushOptions = { checkFrequency: CodePush.CheckFrequency.ON_APP_START };
+let codePushOptions = { checkFrequency: CodePush.CheckFrequency.ON_APP_RESUME };
 
 App = CodePush(codePushOptions)(App);
 
