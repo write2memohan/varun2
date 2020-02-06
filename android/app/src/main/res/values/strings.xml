@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">varun2</string>
+    <string moduleConfig="true" name="CodePushDeploymentKey">0vnui2MC99gf5C2Q9QjEx7itJ2zTbGP4khoOA</string>
 </resources>
