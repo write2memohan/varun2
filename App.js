@@ -16,7 +16,7 @@ class App extends Component {
   render () {
     return (
   <View>
-      <Text>Hello world !!</Text>
+      <Text>Hello world 111!!</Text>
   </View>
 
     );
